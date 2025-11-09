@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --blanco: #D0DBF2;
+  --azul-claro: #B0C9FF;
+  --azul: #284273;
+  --negro: #1F2533;
+}
+
+@theme inline {
+  --color-blanco: var(--blanco);
+  --color-azul-claro: var(--azul-claro);
+  --color-azul: var(--azul);
+  --color-negro: var(--negro);
+
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-terminator {
+  font-family: 'Terminator Cyr', sans-serif;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
